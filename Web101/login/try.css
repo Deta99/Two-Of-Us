@@ -1,0 +1,108 @@
+
+body {
+    background-color: #3b5998;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+.left, .right {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.left {
+    background-color: yellow;
+}
+.social-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 10px;
+}
+.social-button i {
+    font-size: 18px;
+    margin-right: auto;
+}
+.social-button span {
+    flex: 1; 
+    text-align: center; 
+}
+.social-button:hover {
+    transform: scale(1.1);
+}
+.face {
+    background-color: #4267B2; 
+}
+.twit {
+    background-color: #1DA1F2; 
+}
+.goo {
+    background-color: #DB4437; 
+}
+.beh {
+    background-color: #1769FF;
+}
+h5 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    margin-right: 10px;
+}
+input:focus {
+    border-color: #4267B2;
+    box-shadow: 0 0 5px rgba(66, 103, 178, 0.5);
+}
+.icon {
+    font-size: 18px;
+    color: #555;
+}
+.submit-button {
+    background-color: #4267B2;
+    width: 100%;
+    max-width: 200px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #365899;
+}
